@@ -1,0 +1,180 @@
+@import '../../variables.scss';
+
+.dropDownbox {
+    background-color: $color-secondary;
+}
+
+.navlink {
+    color: $color-light !important;
+}
+
+.selectmobile {
+    display   : none !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .dropDownbox {
+        background-color: $color-secondary;
+    }
+
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 87% !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .dropDownbox {
+        background-color: $color-secondary;
+    }
+
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 87% !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .dropDownbox {
+        background-color: $color-secondary;
+    }
+
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 85% !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 821px) {
+    .dropDownbox {
+        background-color: $color-secondary;
+    }
+
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 83% !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .dropDownbox {
+        background-color: $color-secondary;
+    }
+
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 80% !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 491px) {
+    .dropDownbox {
+        background-color: $color-secondary;
+    }
+
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 73% !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 230px !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 230px !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .selectweb {
+        display: none !important;
+    }
+
+    .navbar_brand {
+        width: 215px !important;
+    }
+
+    .selectmobile {
+        display   : block !important;
+        width     : 100%;
+        margin-top: 0.3rem;
+    }
+}

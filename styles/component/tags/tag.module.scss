@@ -1,0 +1,77 @@
+@import '../../variables.scss';
+
+.section {
+    background-color: $color-black;
+    border-radius   : 0px !important;
+}
+
+.card {
+    border          : none !important;
+    background-color: $color-dark;
+}
+
+.container {
+    margin-top   : 3rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    text-align   : center;
+    font-size    : 24px;
+    font-weight  : 700;
+    margin-bottom: 20px;
+    color        : $color-dark-light;
+}
+
+.listGroup {
+    margin-top: 1rem;
+}
+
+.pagination {
+    text-align     : center;
+    justify-content: center;
+}
+
+.icon {
+    color: $color-secondary;
+}
+
+.navlink {
+    font-size: 12px;
+    color    : $color-light;
+}
+
+.cardtab{
+    background-color: transparent !important;
+}
+
+.nav_link_active {
+    justify-content: center;
+    margin-bottom  : 1rem;
+}
+
+.btns{
+    background-color: $color-dark-solid !important;
+}
+
+.navlinkpills{
+    color: $color-light !important;
+}
+
+@media only screen and (max-width: 375px) {
+    .cardgroup {
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .cardgroup {
+        margin-bottom: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .cardgroup {
+        margin-bottom: 0.9rem;
+    }
+}

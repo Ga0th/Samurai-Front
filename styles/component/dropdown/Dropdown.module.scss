@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+
+.dropdowntoggle {
+  color: $color-light !important;
+
+  a {
+    color: $color-light !important;
+  }
+
+  .dropdownitem {
+    color: $color-dark !important;
+  }
+}
+
+.dropdownitem {
+  color: $color-dark !important;
+}

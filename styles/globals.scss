@@ -1,0 +1,61 @@
+@import "./variables.scss";
+$theme-colors: ("primary": $color-primary,
+  "secondary": $color-secondary,
+  "danger": $color-danger,
+  "success": $color-success,
+  "warning": $color-warning,
+  "info": $color-info,
+  "light": $color-light,
+  "dark": $color-dark,
+);
+@import "~bootstrap/scss/bootstrap";
+
+html,
+body {
+  padding: 0;
+  margin : 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color          : inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color           : $color-secondary !important;
+  background-color: transparent !important;
+  border-color    : transparent !important;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  border-color    : transparent !important;
+  isolation       : isolate;
+  background-color: $color-dark-solid !important;
+  color           : $color-light !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color           : $color-secondary !important;
+  background-color: $color-dark-solid !important;
+}
+
+.nav-link {
+  display        : block;
+  padding        : 0.5rem 1rem;
+  color          : $color-light !important;
+  text-decoration: none;
+  transition     : color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
